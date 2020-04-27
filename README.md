@@ -42,7 +42,6 @@ elec_network_topology.csv: 0/1 table of connections between market zones (1=conn
 heat_network_topology.csv: 0/1 table of connections between nodes (1=connected, 0=disconnected)
 solar_prod.csv: Electricity production from PV in Denmark (market zones DK1 and DK2) for each hiy
 wind_prod.csv: Electricity production from wind in Denmark (market zones DK1 and DK2) for each hiy
-NE_data_heat_elec.xslx: Excel file of all input data
 
 Python code: 
 
