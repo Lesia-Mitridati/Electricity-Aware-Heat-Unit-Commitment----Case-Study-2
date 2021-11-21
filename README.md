@@ -1,4 +1,4 @@
-# Electricity-Aware-Heat-Unit-Commitment---- Case study 2 and Code
+# Electricity-Aware-Heat-Unit-Commitment---- Case study 2
 Online appendix to companion paper submitted to IJOO, Danish Energy system case study setup, and Python code for EAHUC model. 
 
 Nomenclature:
@@ -42,11 +42,4 @@ elec_network_topology.csv: 0/1 table of connections between market zones (1=conn
 heat_network_topology.csv: 0/1 table of connections between nodes (1=connected, 0=disconnected)
 solar_prod.csv: Electricity production from PV in Denmark (market zones DK1 and DK2) for each hiy
 wind_prod.csv: Electricity production from wind in Denmark (market zones DK1 and DK2) for each hiy
-
-Python code: 
-
-build_bids.py: estimate electricity prices and compute heat bids (price-quantity) of heat pumps and CHPs, for each hour of the following day
-HUC_no_time_delay.py: electricity-aware, combined, and decoupled heat unit commitment and heat market clearings, with time delays in pipelines fixed to 0, for each hour of the following day
-HUC.py: electricity-aware, combined and decoupled heat unit commitment and heat market clearings, with variable time delays in pipelines, for each hour of the following day
-EM.py: electricity market clearing for eachhour of the following day
 
