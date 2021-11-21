@@ -1,4 +1,4 @@
-# Electricity-Aware-Heat-Unit-Commitment----Online-Appendix
+# Electricity-Aware-Heat-Unit-Commitment---- Case study 2 and Code
 Online appendix to companion paper submitted to IJOO, Danish Energy system case study setup, and Python code for EAHUC model. 
 
 Nomenclature:
